@@ -86,7 +86,7 @@ To train our model to generate the target sequence of ground-truth mask, which i
 python tools/train.py configs/seqtr/segmentation/seqtr_mask_[DATASET_NAME].py --cfg-options ema=True
 ```
 
-For RefCOCO\+ and RefCOCOg, we uniformly sample 12 points on the mask contour.
+For RefCOCO/+ and RefCOCOg, we uniformly sample 12 points on the mask contour.
 ## Evaluation
 
 ```
