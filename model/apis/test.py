@@ -62,7 +62,6 @@ def accuracy(pred_bboxes, gt_bbox, pred_masks, gt_mask, is_crowd=None, device="c
                 mask_iou >= iou_thr).float().mean()
 
     return det_acc * 100., OIoU * 100, mask_iou * 100., mask_acc_at_thrs * 100.
-    # return (det_acc + 0.023) * 100., (OIoU + 0.023) * 100, (mask_iou + 0.023) * 100., mask_acc_at_thrs * 100.
 
 
 def evaluate_model(epoch,
