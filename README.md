@@ -97,4 +97,4 @@ The script will evaluate both the performance of the model trained with and with
 
 ## Acknowledgement
 
-Our code is built upon the open-sourced [mmcv](https://github.com/open-mmlab/mmcv), [mmdetection](https://github.com/open-mmlab/mmdetection) and [detectron2](https://github.com/facebookresearch/detectron2) libraries. 
+Our code is built upon the open-sourced [mmcv](https://github.com/open-mmlab/mmcv), [mmdetection](https://github.com/open-mmlab/mmdetection) and [detectron2](https://github.com/facebookresearch/detectron2) libraries. Our project is based on [SeqTR](https://github.com/seanzhuh/SeqTR) .
